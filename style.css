@@ -1,15 +1,16 @@
 /* Classify page fonts */
-.p1 {
-    font-family: "Times New Roman", Times, serif;
+
+p {
+    font-family: Helvetica, sans-serif;
   }
-  
-.p2 {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-.p3 {
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
+
+
+  .yosemite_cropped {
+    width: 100%; /* width of container */
+    height: 1200px; /* height of container */
+    object-fit: cover;
+    object-position: 50% 55%; /* try 20px 10px */
+}
 
 /* Style the side navigation */
 .sidenav {
@@ -43,6 +44,7 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+  background-color:#D3D3D3;
 }
 
 div.gallery:hover {
@@ -61,5 +63,10 @@ div.desc {
 
 /* Style the content */
 .content {
-  margin-left: 200px;
-  padding-left: 20px;
+  padding-left: 220px;
+  background-color: #D3D3D3;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 202d5b05d60f234202c1e9e192c49230cee5f351
