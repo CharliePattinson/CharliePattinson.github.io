@@ -7,9 +7,9 @@ p {
 
   .yosemite_cropped {
     width: 100%; /* width of container */
-    height: 800px; /* height of container */
+    height: 1200px; /* height of container */
     object-fit: cover;
-    object-position: 50% 60%; /* try 20px 10px */
+    object-position: 50% 55%; /* try 20px 10px */
 }
 
 /* Style the side navigation */
@@ -63,6 +63,6 @@ div.desc {
 
 /* Style the content */
 .content {
-  padding-left: 200px;
+  padding-left: 220px;
   background-color: #D3D3D3;
 }
