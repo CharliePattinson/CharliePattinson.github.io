@@ -5,7 +5,7 @@ p {
   }
 
 
-  .yosemite_cropped {
+yosemite_cropped {
     width: 100%; /* width of container */
     height: 1200px; /* height of container */
     object-fit: cover;
