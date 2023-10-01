@@ -1,0 +1,8 @@
+# Hopefully ignore all icloud backups
+*.icloud
+/images/*.icloud
+/files/*.icloud
+# Also ignore the DS store on mac OS
+*.DS_Store
+# Also ignore backstop file (for my messing around the website itself)
+backstop.html
