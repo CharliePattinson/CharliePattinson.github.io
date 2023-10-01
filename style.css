@@ -44,11 +44,11 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
-  background-color:#D3D3D3;
+  background-color:#C0C0C0;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #C0C0C0;
 }
 
 div.gallery img {
@@ -64,9 +64,6 @@ div.desc {
 /* Style the content */
 .content {
   padding-left: 220px;
-  background-color: #D3D3D3;
-<<<<<<< HEAD
+  background-color: #C0C0C0;
 }
-=======
-}
->>>>>>> 202d5b05d60f234202c1e9e192c49230cee5f351
+
