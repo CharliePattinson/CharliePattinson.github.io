@@ -1,19 +1,46 @@
 /* Classify page fonts */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+h1 {
+  font-family: 'Open Sans';
+  font-size: 48px;
+  font-weight:800;
+}
+
 body {
+  font-family: 'Open Sans';
   margin: 0px;
-  padding: 8px;
+  padding: 0px;
   background-color:#C0C0C0
 }
 
 p {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Open Sans';
   }
 
 .paragraph {
   margin: 0px;
   padding: 2px;
 }
+.section {
+  font-family: 'Open Sans'; 
+  padding: 0 2rem;
+}
+.gfg {
+  margin: 0%;
+  position: relative;
+}
+ 
+/*This CSS code is defining the styles for a container that holds text*/
+.text-container {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  left: 2rem;
+  bottom: 0rem;
+  padding: 0 0;
+  margin: 0 0;
+  }
 
 .yosemite_cropped {
     width: 100%; /* width of container */
