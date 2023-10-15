@@ -58,7 +58,16 @@ p {
 .section {
   font-family: 'Open Sans'; 
   padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
 }
+
+.gallery-section {
+  font-family: 'Open Sans'; 
+  padding: 0 2rem;
+  display: flex;
+}
+
 .gfg {
   margin: 0%;
   position: relative;
