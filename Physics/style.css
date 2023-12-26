@@ -163,3 +163,26 @@ div.desc {
   background-color: #C0C0C0;
 }
 
+.banner_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #C0C0C0;
+}
+
+.banner_item{
+  background-color: #C0C0C0;
+}
+
+.grid_container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  font-family: 'Open Sans';
+  background-color: #C0C0C0;
+  padding: 20px
+}
+
+.grid_item{
+  background-color: #C0C0C0;
+}
+
